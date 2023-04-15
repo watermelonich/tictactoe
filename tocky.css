@@ -1,0 +1,96 @@
+body {
+
+  font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  left: 25rem;
+  top: 3rem;
+  background-color: white;
+  width: 40rem;
+  height: 44rem;
+  border-radius: 75px;
+  box-shadow: 1px 1px 15px rgba(139, 100, 100, 0.283);
+
+}
+
+table {
+
+    border-collapse: collapse;
+    margin-top: 30px;
+
+  }
+  
+  td {
+
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+  
+  td.X {
+
+    color: red;
+
+  }
+  
+  td.O {
+
+    color: blue;
+
+  }
+  
+  #message {
+
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  
+  #reset-button {
+
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  #reset-button:hover {
+
+    background-color: black;
+    color: white;
+
+  }
+  
+ .title h1 {
+
+    position: relative;
+    left: 14rem;
+    top: 4rem;
+    padding-bottom: 15px;
+
+  }
+
+  #game-container {
+
+    position: relative;
+    left: 10rem;
+    top: 5rem;
+    padding-top: 1rem;
+
+  }
